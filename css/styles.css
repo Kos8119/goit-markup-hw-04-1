@@ -171,7 +171,6 @@ img {
   display: inline-block;
   border-style: none;
   outline: none;
-
   padding: 6px 22px;
   border-radius: 4px;
   font-weight: 500;
@@ -182,6 +181,16 @@ img {
   letter-spacing: 0.06em;
   color: var(--text-color);
   background-color: #f5f4fa;
+}
+.hero-button > .button {
+  color: var(--header-bg-color);
+  background-color: var(--accent-color);
+}
+.hero-button > .button:focus,
+.hero-button > .button:hover {
+  color: var(--text-color);
+  background-color: #f5f4fa;
+  cursor: pointer;
 }
 
 .button:focus,
@@ -288,13 +297,56 @@ h2 {
 }
 .team-cards p {
   margin-top: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 16px;
   text-align: center;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #757575;
+}
+.social-links {
+  display: inline-flex;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+.social-links > li:not(:last-child) {
+  margin-right: 10px;
+}
+.soc-link {
+  width: 44px;
+  height: 44px;
+  align-items: center;
+}
+.button-team {
+  width: 20px;
+  height: 20px;
+}
+
+/* наши клиенты*/
+.clients {
+  padding-top: 94px;
+  padding-bottom: 174px;
+}
+.clients-title,
+h2 {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.clients-list {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+
+.clients-list > li:not(:last-child) {
+  margin-right: 30px;
+}
+
+.button-client {
+  width: 170px;
+  height: 90px;
 }
 
 /* страница портфолио*/
