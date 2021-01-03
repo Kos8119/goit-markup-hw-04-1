@@ -441,8 +441,6 @@ main {
   display: flex;
   flex-wrap: wrap;
   margin-left: auto;
-
-  /*width: calc((100%-60px) / 3); */
 }
 .pf-cards > li {
   margin-right: 30px;
@@ -496,7 +494,9 @@ footer {
   padding-bottom: 60px;
   background-color: var(--footer-bg-color);
 }
-
+.f-blocks {
+  display: flex;
+}
 .f-studio {
   font-family: Raleway;
   font-style: normal;
@@ -525,4 +525,47 @@ footer {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.f-links {
+  margin-top: 12px;
+}
+.f-links > h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 70px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--header-bg-color);
+}
+
+.footer-links {
+  display: inline-flex;
+  margin-left: 70px;
+  margin-top: 20px;
+}
+.footer-links > li:not(:last-child) {
+  margin-right: 10px;
+}
+.foot-link :hover,
+.foot-link :focus {
+  background-color: var(--accent-color);
+  fill: var(--header-bg-color);
+  cursor: pointer;
+}
+
+.foot-master {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  border: none;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  fill: var(--header-bg-color);
 }
