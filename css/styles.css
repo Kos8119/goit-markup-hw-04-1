@@ -217,7 +217,19 @@ img {
 .p-item {
   width: 270px;
 }
+.item-pecul {
+  display: inline-block;
+  align-items: center;
+  padding: 25px 100px;
+  margin-bottom: 30px;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
 
+.pec-image {
+  width: 70px;
+  height: 70px;
+}
 .p-item > p {
   margin-top: 10px;
   margin-bottom: 0;
@@ -306,6 +318,8 @@ h2 {
   letter-spacing: 0.03em;
   color: #757575;
 }
+
+/* кнопки соцсетей в карточках команды*/
 .social-links {
   display: inline-flex;
   margin-left: 32px;
@@ -316,6 +330,7 @@ h2 {
 .social-links > li:not(:last-child) {
   margin-right: 10px;
 }
+
 .master {
   display: inline-flex;
   justify-content: center;
@@ -360,11 +375,16 @@ h2 {
   margin-right: 30px;
 }
 
-.button-client {
+.client {
   width: 170px;
   height: 90px;
+  padding: 0;
 }
 
+.button-client {
+  display: inline-block;
+  align-items: center;
+}
 /* страница портфолио*/
 main {
   background-color: var(--header-bg-color);
