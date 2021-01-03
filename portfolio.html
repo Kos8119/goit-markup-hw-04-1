@@ -59,7 +59,7 @@
                 <h2 class="visually-hidden">карточки портфолио</h2>
                 <ul class="pf-cards">
                     <li>
-                        <a href="">
+                        <a class="pf-link" href="">
                             <img src="./images/pf-1.jpg" alt="открытый лэптоп" width="370">
                             <div class="pf-item">
                                 <h3>Технокряк</h3>
@@ -68,7 +68,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a class="pf-link" href="">
                             <img src="./images/pf-2.jpg" alt="два баскетболиста" width="370">
                             <div class="pf-item">
                                 <h3>Постер New Orlean vs Golden Star</h3>
@@ -77,7 +77,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a class="pf-link" href="">
                             <img src="./images/pf-3.jpg" alt="логотип в виде рыбы" width="370">
                             <div class="pf-item">
                                 <h3>Ресторан Seafood</h3>
@@ -86,7 +86,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a class="pf-link" href="">
                             <img src="./images/pf-4.jpg" alt="наушники" width="370">
                             <div class="pf-item">
                                 <h3>Проект Prime</h3>
@@ -95,7 +95,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a class="pf-link" href="">
                             <img src="./images/pf-5.jpg" alt="две коробки разного цвета" width="370">
                             <div class="pf-item">
                                 <h3>Проект Boxes</h3>
@@ -104,7 +104,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a class="pf-link" href="">
                             <img src="./images/pf-6.jpg" alt="монитор с веб страницей" width="370">
                             <div class="pf-item">
                                 <h3 lang="en">Inspiration has no Borders</h3>
@@ -113,7 +113,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a class="pf-link" href="">
                             <img src="./images/pf-7.jpg" alt="книга на английском языке" width="370">
                             <div class="pf-item">
                                 <h3>Издание Limited Edition</h3>
@@ -122,7 +122,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a class="pf-link" href="">
                             <img src="./images/pf-8.jpg" alt="ярлык со шнурком" width="370">
                             <div class="pf-item">
                                 <h3>Проект LAB</h3>
@@ -131,7 +131,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a class="pf-link" href="">
                             <img src="./images/pf-9.jpg" alt="человек набирает текст на лептопе" width="370">
                             <div class="pf-item">
                                 <h3 lang="en">Growing Business</h3>
@@ -145,15 +145,44 @@
     </main>
 
     <footer>
-        <div class="container f-container">
-            <a class="f-logo" href="index.html"><span class="web">Web</span><span class="f-studio">Studio</span></a>
-            <ul class="f-contacts">
-                <li>
-                    <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
-                </li>
-                <li><a class="footer-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="footer-contacts" href="tel:+380961111111">+38 096 111 11 11</a></li>
-            </ul>
+        <div class="container">
+            <div class="f-blocks">
+                <div class="f-address"><a class="f-logo" href="index.html"><span class="web">Web</span><span
+                            class="f-studio">Studio</span></a>
+                    <ul class="f-contacts">
+                        <li>
+                            <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
+                        </li>
+                        <li><a class="footer-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                        <li><a class="footer-contacts" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                    </ul>
+                </div>
+                <div class="f-links">
+                    <h3>присоединяйтесь</h3>
+                    <ul class="footer-links">
+                        <li class="foot-link"><button class="button foot-master">
+                                <svg class="button-team">
+                                    <use href="./images/symbol-defs_opt.svg#icon-instagram-2"></use>
+                                </svg>
+                            </button></li>
+                        <li class="foot-link"><button class="button foot-master">
+                                <svg class="button-team">
+                                    <use href="./images/symbol-defs_opt.svg#icon-twitter-1"></use>
+                                </svg>
+                            </button></li>
+                        <li class="foot-link"><button class="button foot-master">
+                                <svg class="button-team">
+                                    <use href="./images/symbol-defs_opt.svg#icon-facebook-1"></use>
+                                </svg>
+                            </button></li>
+                        <li class="foot-link"><button class="button foot-master">
+                                <svg class="button-team">
+                                    <use href="./images/symbol-defs_opt.svg#icon-linkedin-1"></use>
+                                </svg>
+                            </button></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </footer>
 </body>

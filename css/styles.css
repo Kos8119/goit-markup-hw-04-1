@@ -488,6 +488,16 @@ main {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
+.pf-link {
+  display: block;
+}
+
+.pf-link:hover,
+.pf-link:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 1px 4px 6px rgba(0, 0, 0, 0.16),
+    0px 4px 4px rgba(63, 1, 1, 0.14);
+}
 /*футер*/
 footer {
   padding-top: 60px;
@@ -526,7 +536,7 @@ footer {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-
+/*ссылки соцсети футер*/
 .f-links {
   margin-top: 12px;
 }
