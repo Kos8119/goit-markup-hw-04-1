@@ -44,6 +44,7 @@ header > .container {
   display: flex;
   align-items: center;
 }
+
 ul {
   margin-top: 0;
   margin-bottom: 0;
@@ -108,7 +109,8 @@ img {
   margin-right: 50px;
 }
 .header-contact {
-  display: block;
+  display: flex;
+  align-items: center;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -117,6 +119,10 @@ img {
 .header-contact:focus,
 .header-contact:hover {
   color: var(--accent-color);
+}
+.cont-icon {
+  margin-right: 10px;
+  fill: currentColor;
 }
 
 /*стартовая страница*/
