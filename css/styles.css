@@ -128,10 +128,6 @@ img {
 /*стартовая страница*/
 /*герой*/
 
-/*.hero {
-  padding-top: 200px;
-  padding-bottom: 200px;
-}*/
 .hero .section {
   padding: 0;
   background-color: #c4c4c4;
@@ -390,8 +386,6 @@ h2 {
   color: var(--icon-slink-color);
 }
 .cl-image {
-  /*width: 44.3px;
-  height: 49.3px;*/
   fill: currentColor;
 }
 
