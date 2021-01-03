@@ -4,6 +4,7 @@
   --footer-bg-color: #2f303a;
   --accent-color: #2196f3;
   --text-color: #212121;
+  --icon-slink-color: #afb1b8;
 }
 /* общие */
 body,
@@ -309,15 +310,30 @@ h2 {
   display: inline-flex;
   margin-left: 32px;
   margin-right: 32px;
+  margin-bottom: 30px;
 }
 
 .social-links > li:not(:last-child) {
   margin-right: 10px;
 }
-.soc-link {
+.master {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   width: 44px;
   height: 44px;
-  align-items: center;
+  padding: 12px;
+  border: none;
+  border-radius: 50%;
+  background-color: var(--header-bg-color);
+  fill: var(--icon-slink-color);
+}
+
+.s-links :hover,
+.s-links :focus {
+  background-color: var(--accent-color);
+  fill: var(--header-bg-color);
+  cursor: pointer;
 }
 .button-team {
   width: 20px;
