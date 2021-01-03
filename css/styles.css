@@ -218,8 +218,6 @@ img {
   width: 270px;
 }
 .item-pecul {
-  display: inline-block;
-  align-items: center;
   padding: 25px 100px;
   margin-bottom: 30px;
   background: #f5f4fa;
@@ -358,7 +356,7 @@ h2 {
 /* наши клиенты*/
 .clients {
   padding-top: 94px;
-  padding-bottom: 174px;
+  padding-bottom: 172px;
 }
 .clients-title,
 h2 {
@@ -374,17 +372,30 @@ h2 {
 .clients-list > li:not(:last-child) {
   margin-right: 30px;
 }
-
-.client {
+.cl-link {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   width: 170px;
   height: 90px;
-  padding: 0;
+  box-sizing: border-box;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  color: var(--icon-slink-color);
+}
+.cl-image {
+  /*width: 44.3px;
+  height: 49.3px;*/
+  fill: currentColor;
 }
 
-.button-client {
-  display: inline-block;
-  align-items: center;
+.cl-link:focus,
+.cl-link:hover {
+  color: var(--accent-color);
+  border-color: var(--accent-color);
+  cursor: pointer;
 }
+
 /* страница портфолио*/
 main {
   background-color: var(--header-bg-color);
