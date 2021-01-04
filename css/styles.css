@@ -261,7 +261,6 @@ img {
 .business-pict {
   display: flex;
   margin-left: auto;
-  padding-top: 50px;
 }
 
 .business-pict > li:not(:last-child) {
@@ -285,9 +284,7 @@ h2 {
   padding-bottom: 94px;
   background-color: #f5f4fa;
 }
-.team {
-  padding-bottom: 50px;
-}
+
 .team-cards {
   display: flex;
 }
